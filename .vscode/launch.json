@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run FastAPI (Uvicorn)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "python": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+      "args": ["trivia.main:app", "--reload", "--host", "127.0.0.1", "--port", "8000"],
+      "jinja": true,
+      "justMyCode": true
+    }
+  ]
+}
