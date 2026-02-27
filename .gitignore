@@ -219,3 +219,5 @@ pnpm-debug.log*
 trivia-ui/.svelte-kit/
 trivia-ui/build/
 trivia-ui/.output/
+/trivia-ui/.svelte-kit
+/trivia-ui/node_modules
